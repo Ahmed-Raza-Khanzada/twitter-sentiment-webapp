@@ -1,0 +1,20 @@
+git init
+git status
+git add .
+git commit -m "Helloo"
+git remote add origin https:
+git branch -M main
+git push -u origin main
+
+to check commited files
+git ls-tree -r main
+
+to check which repo is attach:
+git remote -v
+
+to remove alredy attach repo:
+git remote rm origin
+
+to check link of repo :
+cat .git/config
+
